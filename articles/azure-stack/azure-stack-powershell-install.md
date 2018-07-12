@@ -128,7 +128,7 @@ In a disconnected scenario, you must first download the PowerShell modules to a 
 
 4. Now you must register this location as the default repository and install the AzureRM and AzureStack modules from this repository:
 
-   ```PowerShell
+   ```PowerShell 
    #requires -Version 5
    #requires -RunAsAdministrator
    #requires -Module PowerShellGet
